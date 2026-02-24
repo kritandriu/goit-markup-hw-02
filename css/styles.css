@@ -1,19 +1,35 @@
-nav{
-    color: rgba(67, 68, 85, 1);
+a {
+    text-decoration: none;
+    color:  rgba(77, 90, 229, 1);
 }
 ul{
     list-style: none;
 }
 body{
-    font-family: ;
-    color: ;
-    background-color: ;
-    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: rgba(46, 47, 66, 1);
+    background-color: rgba(244, 244, 253, 1);
 }
-footer{
+nav a {
+    text-decoration: none;
+    color: rgba(77, 90, 229, 1);
+}
+footer {
     background-color: rgba(46, 47, 66, 1);
     color: rgba(244, 244, 253, 1);
 }
-.footer{
-    color: rgba(244, 244, 253, 1);
+p{
+    font-size: 16px;
+}
+.adress {
+    color: rgba(67, 68, 85, 1);
+}
+h1{
+    font-size: 56px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.pierszy{
+    background-color: rgba(46, 47, 66, 1);
 }
