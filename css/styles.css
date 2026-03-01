@@ -5,15 +5,15 @@ a {
 ul{
     list-style: none;
 }
+nav a {
+    text-decoration: none;
+    color: rgba(46, 47, 66, 1);
+}
 body{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     color: rgba(46, 47, 66, 1);
     background-color: rgba(244, 244, 253, 1);
-}
-nav a {
-    text-decoration: none;
-    color: rgba(77, 90, 229, 1);
 }
 footer {
     background-color: rgba(46, 47, 66, 1);
@@ -22,7 +22,7 @@ footer {
 p{
     font-size: 16px;
 }
-.adress {
+.adress a{
     color: rgba(67, 68, 85, 1);
 }
 h1{
@@ -32,4 +32,11 @@ h1{
 }
 .pierszy{
     background-color: rgba(46, 47, 66, 1);
+}
+.name, .profession, .OurTeam{
+    text-align: center;
+}
+button{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(77, 90, 229, 1);
 }
