@@ -28,6 +28,9 @@ body {
 .header-navigator a:focus {
     color: #404bbf;
 }
+.header-contact {
+    color: rgba(67, 68, 85, 1);
+}
 .header-contact:hover,
 .header-contact:focus {
     color: #404bbf;
@@ -57,7 +60,6 @@ body {
     cursor: pointer;
     border: none;
     padding: 12px 24px;
-    border-radius: 8px;
     transition: background-color 0.3s ease;
 }
 .main-button:hover,
@@ -65,7 +67,6 @@ body {
     background-color: #404bbf;
 }
 .our-features {
-    text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -86,20 +87,16 @@ body {
 }
 .our-team {
     background-color: #f4f4fd;
+    letter-spacing: 0.02em;
     text-align: center;
-    padding: 60px 0;
-    font-weight: 700;
-    font-size: 36px;
     line-height: 1.11;
     color: rgba(46, 47, 66, 1);
 }
 .our-team-list li {
     background: #ffffff;
     padding: 20px;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    display: inline-block;
     width: 260px;
     vertical-align: top;
 }
@@ -107,31 +104,47 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: rgba(67, 68, 85, 1);
 }
-.our-portfolio {
+.our-team-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: rgba(46, 47, 66, 1);
+}
+.our-portfolio-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
     color: rgba(46, 47, 66, 1);
 }
 .our-portfolio-list li {
-    display: inline-block;
     width: 360px;
     margin: 10px;
-    text-align: center;
+   }
+.our-portfolio-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: rgba(46, 47, 66, 1);
 }
 .portfolio-category {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: rgba(67, 68, 85, 1);
 }
 .footer {
     background: rgba(46, 47, 66, 1);
     padding: 40px 0;
-    text-align: center;
 }
 
 .footer-link {
@@ -142,10 +155,12 @@ body {
     text-transform: uppercase;
     color: rgba(244, 244, 253, 1);
 }
-
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: rgba(244, 244, 253, 1);
+}
+.footer-link-web{
+color: rgba(77, 90, 229, 1);
 }
